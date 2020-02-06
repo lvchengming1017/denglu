@@ -30,7 +30,7 @@ public class LoginController {
         }else {
             String s = GetMD5(pwd);
             Integer login = loginService.login(account, s);
-                return "登录成功";
+                return "登录成功..";
         }
     }
     }
